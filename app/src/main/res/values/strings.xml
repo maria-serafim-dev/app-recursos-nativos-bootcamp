@@ -2,4 +2,7 @@
     <string name="app_name">RecursosNativosBootcamp</string>
     <string name="btn_set_event">Set Event</string>
     <string name="btn_set_contact">Set Contact</string>
+    <string name="btn_set_fotos">Set Photos</string>
+    <string name="txt_selected_image">Imagem a ser selecionada pelo usuário</string>
+    <string name="text_image_selected">Selecione uma imagem</string>
 </resources>

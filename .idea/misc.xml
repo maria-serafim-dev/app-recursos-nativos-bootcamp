@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Maria/AndroidStudioProjects/RecursosNativosBootcamp/app/src/main/res/drawable-v24/ic_image.xml" value="0.1" />
         <entry key="..\:/Users/Maria/AndroidStudioProjects/RecursosNativosBootcamp/app/src/main/res/layout/activity_contacts.xml" value="0.184375" />
         <entry key="..\:/Users/Maria/AndroidStudioProjects/RecursosNativosBootcamp/app/src/main/res/layout/activity_main.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Maria/AndroidStudioProjects/RecursosNativosBootcamp/app/src/main/res/layout/activity_photo.xml" value="0.1703125" />
         <entry key="..\:/Users/Maria/AndroidStudioProjects/RecursosNativosBootcamp/app/src/main/res/layout/item_contact.xml" value="0.184375" />
       </map>
     </option>
