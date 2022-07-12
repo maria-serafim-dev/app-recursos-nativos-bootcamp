@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         onClickListenerCalendar()
         onClickListenerPhoneNumber()
+        onClickListenerPhotos()
     }
 
     private fun onClickListenerCalendar() {
@@ -36,10 +37,16 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
     private fun onClickListenerPhoneNumber() {
         binding.setContact.setOnClickListener {
             val intent = Intent(this, ContactsActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun onClickListenerPhotos() {
+        binding.setPhoto.setOnClickListener {
+            val intent = Intent(this, PhotoActivity::class.java)
             startActivity(intent)
         }
     }
