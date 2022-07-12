@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RecursosNativosBootcamp</string>
     <string name="btn_set_event">Set Event</string>
+    <string name="btn_set_contact">Set Contact</string>
 </resources>
