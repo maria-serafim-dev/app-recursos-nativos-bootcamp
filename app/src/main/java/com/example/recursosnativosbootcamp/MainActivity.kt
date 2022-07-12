@@ -1,9 +1,9 @@
 package com.example.recursosnativosbootcamp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.CalendarContract
+import androidx.appcompat.app.AppCompatActivity
 import com.example.recursosnativosbootcamp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         onClickListenerCalendar()
         onClickListenerPhoneNumber()
         onClickListenerPhotos()
+        onClickListenerLocation()
     }
 
     private fun onClickListenerCalendar() {
@@ -47,6 +48,13 @@ class MainActivity : AppCompatActivity() {
     private fun onClickListenerPhotos() {
         binding.setPhoto.setOnClickListener {
             val intent = Intent(this, PhotoActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun onClickListenerLocation() {
+        binding.setLocation.setOnClickListener {
+            val intent = Intent(this, MapsActivity::class.java)
             startActivity(intent)
         }
     }
