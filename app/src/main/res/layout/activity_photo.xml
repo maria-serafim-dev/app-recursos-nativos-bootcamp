@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/ivImageUser"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
         android:contentDescription="@string/txt_selected_image"
         android:scaleType="centerCrop"
         tools:src="@drawable/ic_image" />
@@ -22,5 +22,14 @@
         android:padding="10dp"
         android:text="@string/text_image_selected"
         android:layout_margin="16dp"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/btnOpenCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/text_take_picture"
+        android:layout_marginHorizontal="16dp"
         style="@style/Widget.AppCompat.Button.Colored"/>
 </LinearLayout>
