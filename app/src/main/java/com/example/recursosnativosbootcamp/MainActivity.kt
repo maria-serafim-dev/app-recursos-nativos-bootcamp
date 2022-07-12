@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         onClickListenerCalendar()
+        onClickListenerPhoneNumber()
     }
 
     private fun onClickListenerCalendar() {
@@ -32,6 +33,14 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
 
+        }
+    }
+
+
+    private fun onClickListenerPhoneNumber() {
+        binding.setContact.setOnClickListener {
+            val intent = Intent(this, ContactsActivity::class.java)
+            startActivity(intent)
         }
     }
 }
